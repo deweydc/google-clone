@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Sans;
+    /* border: 1px solid black; */
+}
+a{
+    padding: 10px;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3em;
+    max-width: 100%;
+    margin: 0 20px;
+    
+}
+.avatar{
+    border-radius: 50%;
+    margin: 20px;
+    background-color: rgba(68, 68, 255, 0.932);
+    color: white;    
+}
+
+
+
