@@ -1,5 +1,7 @@
 import NavBar from './NavBar';
 import MainContent from './MainContent';
+import Footer from './Footer/Footer';
+import './App.css'
 
 
 
@@ -8,8 +10,7 @@ function App() {
     <div className="App">
       <NavBar />
       <MainContent />
-
-
+      <Footer />
     </div>
   );
 }
